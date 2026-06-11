@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отчёт</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 900px; margin: auto; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 2rem; }
+    th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+    th { background: #f0f0f0; }
+    h1 { color: #333; }
+    h2 { color: #555; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>Отчёт по данным</h1>
+  <p>Всего строк: <strong>50</strong></p>
+  
+  <h2>Числовые колонки</h2>
+  <table>
+    <thead>
+      <tr><th>Колонка</th><th>Кол-во</th><th>Min</th><th>Max</th><th>Среднее</th></tr>
+    </thead>
+    <tbody>
+  <tr>
+    <td>product_id</td>
+    <td>50</td>
+    <td>0.00</td>
+    <td>99.00</td>
+    <td>53.12</td>
+  </tr>
+  <tr>
+    <td>price</td>
+    <td>50</td>
+    <td>312.00</td>
+    <td>484.00</td>
+    <td>400.12</td>
+  </tr></tbody>
+  </table>
+  
+  <h2>Колонка: name</h2>
+  <table>
+    <thead><tr><th>Значение</th><th>Кол-во</th></tr></thead>
+    <tbody><tr><td>Latte</td><td>17</td></tr><tr><td>Ice latte</td><td>14</td></tr><tr><td>Panini with cyplenok</td><td>11</td></tr><tr><td>Сappuccino</td><td>8</td></tr></tbody>
+  </table>
+  <h2>Колонка: healthy</h2>
+  <table>
+    <thead><tr><th>Значение</th><th>Кол-во</th></tr></thead>
+    <tbody><tr><td>B</td><td>21</td></tr><tr><td>C</td><td>19</td></tr><tr><td>A</td><td>10</td></tr></tbody>
+  </table>
+</body>
+</html>
